@@ -1,8 +1,8 @@
-function multiply(a,b){
- return 1;
+function multiply(a, b) {
+  return a * b;
 }
 
-const product=multiply(5,6);
+const product = multiply(5, 6);
 console.log(product);
 
-module.exports=multiply;
+module.exports ={multiply};
